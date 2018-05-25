@@ -12,7 +12,7 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a herf="#">Signup</a></li>
+                    <li>{!! link_to_route("signup.get","Signup") !!}</li>
                     <li><a herf="#">Login</a></li>
                 </ul>
             </div>
